@@ -1,0 +1,156 @@
+\doxysection{MTool\+::Node Class Reference}
+\hypertarget{class_m_tool_1_1_node}{}\label{class_m_tool_1_1_node}\index{MTool::Node@{MTool::Node}}
+
+
+Represents a base dialogue node with various properties.  
+
+
+
+
+{\ttfamily \#include $<$Node.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_m_tool_1_1_node_a054ba453e19984249dbb17d8fd6a2226}\label{class_m_tool_1_1_node_a054ba453e19984249dbb17d8fd6a2226} 
+{\bfseries Node} ()
+\begin{DoxyCompactList}\small\item\em Constructs a \doxylink{class_m_tool_1_1_node}{Node} object with default values. So that it can be called and return a pointer to an object. \end{DoxyCompactList}\item 
+const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_m_tool_1_1_node_acb0d3e300a038c01879d13bc64160403}{get\+ID}} () const
+\begin{DoxyCompactList}\small\item\em Gets the ID of the node. \end{DoxyCompactList}\item 
+const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_m_tool_1_1_node_a296a98ebc3ac2e3f3189e78283d1d3f7}{get\+Dialogue\+Name}} () const
+\begin{DoxyCompactList}\small\item\em Gets the name of the dialogue. \end{DoxyCompactList}\item 
+const char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_m_tool_1_1_node_aedfa9147dca753ee6a3d4d099f508a99}{get\+Text}} () const
+\begin{DoxyCompactList}\small\item\em Gets the text of the dialogue. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_m_tool_1_1_node_a0cfcc9a0b1a0e4d3ee09f886f6b3a867}{get\+Type}} () const
+\begin{DoxyCompactList}\small\item\em Gets the type of the dialogue. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_m_tool_1_1_node_ad4c8972fd0794ec765446e18dc4d0464}{set\+ID}} (const char \texorpdfstring{$\ast$}{*}id)
+\begin{DoxyCompactList}\small\item\em Sets the ID of the node. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_m_tool_1_1_node_a0903fbbc60a400554ad398f750a30045}{set\+Dialogue\+Name}} (const char \texorpdfstring{$\ast$}{*}dialogue\+Name)
+\begin{DoxyCompactList}\small\item\em Sets the name of the dialogue. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_m_tool_1_1_node_ad2397902213ac1e8ef25be09961acf65}{set\+Text}} (const char \texorpdfstring{$\ast$}{*}text)
+\begin{DoxyCompactList}\small\item\em Sets the text of the dialogue. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_m_tool_1_1_node_a7d6d328a5317866bc1d3e0deeb433d61}{set\+Type}} (int type)
+\begin{DoxyCompactList}\small\item\em Sets the type of the dialogue. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a base dialogue node with various properties. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_m_tool_1_1_node_a296a98ebc3ac2e3f3189e78283d1d3f7}\label{class_m_tool_1_1_node_a296a98ebc3ac2e3f3189e78283d1d3f7} 
+\index{MTool::Node@{MTool::Node}!getDialogueName@{getDialogueName}}
+\index{getDialogueName@{getDialogueName}!MTool::Node@{MTool::Node}}
+\doxysubsubsection{\texorpdfstring{getDialogueName()}{getDialogueName()}}
+{\footnotesize\ttfamily const char \texorpdfstring{$\ast$}{*} MTool\+::\+Node\+::get\+Dialogue\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the name of the dialogue. 
+
+\begin{DoxyReturn}{Returns}
+The name of the dialogue as a const char\texorpdfstring{$\ast$}{*}. 
+\end{DoxyReturn}
+\Hypertarget{class_m_tool_1_1_node_acb0d3e300a038c01879d13bc64160403}\label{class_m_tool_1_1_node_acb0d3e300a038c01879d13bc64160403} 
+\index{MTool::Node@{MTool::Node}!getID@{getID}}
+\index{getID@{getID}!MTool::Node@{MTool::Node}}
+\doxysubsubsection{\texorpdfstring{getID()}{getID()}}
+{\footnotesize\ttfamily const char \texorpdfstring{$\ast$}{*} MTool\+::\+Node\+::get\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the ID of the node. 
+
+\begin{DoxyReturn}{Returns}
+The ID as a const char\texorpdfstring{$\ast$}{*}. 
+\end{DoxyReturn}
+\Hypertarget{class_m_tool_1_1_node_aedfa9147dca753ee6a3d4d099f508a99}\label{class_m_tool_1_1_node_aedfa9147dca753ee6a3d4d099f508a99} 
+\index{MTool::Node@{MTool::Node}!getText@{getText}}
+\index{getText@{getText}!MTool::Node@{MTool::Node}}
+\doxysubsubsection{\texorpdfstring{getText()}{getText()}}
+{\footnotesize\ttfamily const char \texorpdfstring{$\ast$}{*} MTool\+::\+Node\+::get\+Text (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the text of the dialogue. 
+
+\begin{DoxyReturn}{Returns}
+The text of the dialogue as a const char\texorpdfstring{$\ast$}{*}. 
+\end{DoxyReturn}
+\Hypertarget{class_m_tool_1_1_node_a0cfcc9a0b1a0e4d3ee09f886f6b3a867}\label{class_m_tool_1_1_node_a0cfcc9a0b1a0e4d3ee09f886f6b3a867} 
+\index{MTool::Node@{MTool::Node}!getType@{getType}}
+\index{getType@{getType}!MTool::Node@{MTool::Node}}
+\doxysubsubsection{\texorpdfstring{getType()}{getType()}}
+{\footnotesize\ttfamily int MTool\+::\+Node\+::get\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the type of the dialogue. 
+
+\begin{DoxyReturn}{Returns}
+The type of the dialogue as an int. 
+\end{DoxyReturn}
+\Hypertarget{class_m_tool_1_1_node_a0903fbbc60a400554ad398f750a30045}\label{class_m_tool_1_1_node_a0903fbbc60a400554ad398f750a30045} 
+\index{MTool::Node@{MTool::Node}!setDialogueName@{setDialogueName}}
+\index{setDialogueName@{setDialogueName}!MTool::Node@{MTool::Node}}
+\doxysubsubsection{\texorpdfstring{setDialogueName()}{setDialogueName()}}
+{\footnotesize\ttfamily void MTool\+::\+Node\+::set\+Dialogue\+Name (\begin{DoxyParamCaption}\item[{const char \texorpdfstring{$\ast$}{*}}]{dialogue\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Sets the name of the dialogue. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dialogue\+Name} & The new dialogue name as a const char\texorpdfstring{$\ast$}{*}. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_m_tool_1_1_node_ad4c8972fd0794ec765446e18dc4d0464}\label{class_m_tool_1_1_node_ad4c8972fd0794ec765446e18dc4d0464} 
+\index{MTool::Node@{MTool::Node}!setID@{setID}}
+\index{setID@{setID}!MTool::Node@{MTool::Node}}
+\doxysubsubsection{\texorpdfstring{setID()}{setID()}}
+{\footnotesize\ttfamily void MTool\+::\+Node\+::set\+ID (\begin{DoxyParamCaption}\item[{const char \texorpdfstring{$\ast$}{*}}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Sets the ID of the node. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & The new ID as a const char\texorpdfstring{$\ast$}{*}. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_m_tool_1_1_node_ad2397902213ac1e8ef25be09961acf65}\label{class_m_tool_1_1_node_ad2397902213ac1e8ef25be09961acf65} 
+\index{MTool::Node@{MTool::Node}!setText@{setText}}
+\index{setText@{setText}!MTool::Node@{MTool::Node}}
+\doxysubsubsection{\texorpdfstring{setText()}{setText()}}
+{\footnotesize\ttfamily void MTool\+::\+Node\+::set\+Text (\begin{DoxyParamCaption}\item[{const char \texorpdfstring{$\ast$}{*}}]{text }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Sets the text of the dialogue. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em text} & The new dialogue text as a const char\texorpdfstring{$\ast$}{*}. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_m_tool_1_1_node_a7d6d328a5317866bc1d3e0deeb433d61}\label{class_m_tool_1_1_node_a7d6d328a5317866bc1d3e0deeb433d61} 
+\index{MTool::Node@{MTool::Node}!setType@{setType}}
+\index{setType@{setType}!MTool::Node@{MTool::Node}}
+\doxysubsubsection{\texorpdfstring{setType()}{setType()}}
+{\footnotesize\ttfamily void MTool\+::\+Node\+::set\+Type (\begin{DoxyParamCaption}\item[{int}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Sets the type of the dialogue. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & The new dialogue type as an int. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+F\+:/\+Uni/4º/\+PG\+\_\+\+TD3\+\_\+\+Motores/\+Middleware/\+Practica/\+Dialogue System -\/ Martin Perez/code/Node.\+hpp\end{DoxyCompactItemize}

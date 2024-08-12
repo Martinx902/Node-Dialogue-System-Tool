@@ -1,0 +1,25 @@
+\doxysection{Unity\+\_\+\+Bridge.\+hpp}
+\hypertarget{_unity___bridge_8hpp_source}{}\label{_unity___bridge_8hpp_source}\index{F:/Uni/4º/PG\_TD3\_Motores/Middleware/Practica/Dialogue System -\/ Martin Perez/code/Unity\_Bridge.hpp@{F:/Uni/4º/PG\_TD3\_Motores/Middleware/Practica/Dialogue System -\/ Martin Perez/code/Unity\_Bridge.hpp}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ "{}Node.hpp"{}}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#define\ EXPORTED\_FUNCTION\ \_\_declspec(dllexport)}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00017\ \textcolor{keyword}{extern}\ \textcolor{stringliteral}{"{}C"{}}}
+\DoxyCodeLine{00018\ \{}
+\DoxyCodeLine{00019\ \ \ \ \ EXPORTED\_FUNCTION\ \textcolor{keywordtype}{void}*\ node\_initializer();}
+\DoxyCodeLine{00020\ \ \ \ \ EXPORTED\_FUNCTION\ \textcolor{keywordtype}{void}\ node\_set\_id(\textcolor{keywordtype}{void}*\ node,\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00021\ \ \ \ \ EXPORTED\_FUNCTION\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ node\_get\_id(\textcolor{keywordtype}{void}*\ node);}
+\DoxyCodeLine{00022\ \ \ \ \ EXPORTED\_FUNCTION\ \textcolor{keywordtype}{void}\ node\_set\_dialogue\_name(\textcolor{keywordtype}{void}*\ node,\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ dialogueName);}
+\DoxyCodeLine{00023\ \ \ \ \ EXPORTED\_FUNCTION\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ node\_get\_dialogue\_name(\textcolor{keywordtype}{void}*\ node);}
+\DoxyCodeLine{00024\ \ \ \ \ EXPORTED\_FUNCTION\ \textcolor{keywordtype}{void}\ node\_set\_text(\textcolor{keywordtype}{void}*\ node,\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ text);}
+\DoxyCodeLine{00025\ \ \ \ \ EXPORTED\_FUNCTION\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ node\_get\_text(\textcolor{keywordtype}{void}*\ node);}
+\DoxyCodeLine{00026\ \ \ \ \ EXPORTED\_FUNCTION\ \textcolor{keywordtype}{void}\ node\_set\_type(\textcolor{keywordtype}{void}*\ node,\ \textcolor{keywordtype}{int}\ type);}
+\DoxyCodeLine{00027\ \ \ \ \ EXPORTED\_FUNCTION\ \textcolor{keywordtype}{int}\ node\_get\_type(\textcolor{keywordtype}{void}*\ node);}
+\DoxyCodeLine{00028\ \}}
+
+\end{DoxyCode}

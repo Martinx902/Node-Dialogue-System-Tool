@@ -1,0 +1,6 @@
+
+
+El código de la herramienta está disponible una vez importada a un proyecto de Unity.
+
+Para no doblar el tamaño de la entrega y no saturar esta carpeta de contenido se ha decidido dejarlo como
+parte de los binaries.
